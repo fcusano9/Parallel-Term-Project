@@ -18,14 +18,14 @@ avatar: http://www.survivalcentral.ca/wp-content/uploads/2015/07/th.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: frank.cusano9@gmail.com
   facebook:
   flickr:
   github: fcusano9/Parallel-Term-Project
   instagram:
-  linkedin:
+  linkedin: www.linkedin.com/in/frank-cusano-4646a0b7
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: include # just type anything here for a working RSS icon
   twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
@@ -37,17 +37,17 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-96605694-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://fcusano9.github.io/Parallel-Term-Project/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/Parallel-Term-Project"
 
 #
 # !! You don't need to change any of the configuration flags below !!
