@@ -18,14 +18,14 @@ avatar: http://www.survivalcentral.ca/wp-content/uploads/2015/07/th.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: frank.cusano9@gmail.com
+  email:
   facebook:
   flickr:
   github: fcusano9/Parallel-Term-Project
   instagram:
-  linkedin: www.linkedin.com/in/frank-cusano-4646a0b7
+  linkedin:
   pinterest:
-  rss: include # just type anything here for a working RSS icon
+  rss: # just type anything here for a working RSS icon
   twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
@@ -34,7 +34,7 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus:
+disqus: parallel-term-project
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-96605694-1
