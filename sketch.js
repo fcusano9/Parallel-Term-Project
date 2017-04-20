@@ -4,7 +4,7 @@
 // Video: https://youtu.be/ZiYdOwOrGyc
 
 var mapimg;
-
+var access_token = '?access_token=pk.eyJ1IjoieWFua2VlNTk5NiIsImEiOiJjajBwZmIycW4wMGxnMnFyMmNvcnZuOTd0In0.b2IXC5Q5A23t5pyKUAhuBw';
 var clat = 0;
 var clon = 0;
 
@@ -16,9 +16,7 @@ var earthquakes;
 
 function preload() {
   mapimg = loadImage('https://api.mapbox.com/styles/v1/mapbox/dark-v9/static/' +
-    clat + ',' + clon + ',' + zoom + '/' +
-    ww + 'x' + hh +
-    '?access_token=pk.eyJ1IjoiY29kaW5ndHJhaW4iLCJhIjoiY2l6MGl4bXhsMDRpNzJxcDh0a2NhNDExbCJ9.awIfnl6ngyHoB3Xztkzarw');
+    clat + ',' + clon + ',' + zoom + '/' + ww + 'x' + hh + access_token);
   // earthquakes = loadStrings('http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.csv');
   earthquakes = loadStrings('http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv');
 }
