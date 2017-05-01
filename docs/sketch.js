@@ -1,7 +1,3 @@
-// Daniel Shiffman
-// http://codingtra.in
-// Earthquake Data Viz
-// Video: https://youtu.be/ZiYdOwOrGyc
 
 var mapimg;
 var access_token = '?access_token=pk.eyJ1IjoieWFua2VlNTk5NiIsImEiOiJjajBwZmIycW4wMGxnMnFyMmNvcnZuOTd0In0.b2IXC5Q5A23t5pyKUAhuBw';
@@ -15,7 +11,7 @@ var zoom = 1;
 var earthquakes;
 
 function preload() {
-  mapimg = loadImage('https://api.mapbox.com/styles/v1/mapbox/dark-v9/static/' +
+  mapimg = loadImage('https://api.mapbox.com/styles/v1/mapbox/streets-v9/static/' +
     clat + ',' + clon + ',' + zoom + '/' + ww + 'x' + hh + access_token);
   // earthquakes = loadStrings('http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.csv');
   earthquakes = loadStrings('http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv');
@@ -36,7 +32,6 @@ function mercY(lat) {
   return a * c;
 }
 
-
 function setup() {
   createCanvas(ww, hh);
   translate(width / 2, height / 2);
@@ -55,12 +50,37 @@ function setup() {
     var x = mercX(lon) - cx;
     var y = mercY(lat) - cy;
     mag = pow(10, mag);
-    mag = sqrt(mag);
+    mag = sqrt(mag) * 3;
     var magmax = sqrt(pow(10, 10));
     var d = map(mag, 0, magmax, 0, 180);
-    stroke(255, 0, 255);
-    fill(255, 0, 255, 200);
+    stroke(255, 30, 40);
+    fill(255, 30, 40, 170);
     ellipse(x, y, d, d);
   }
 
+  var lat1 = 58.851465;
+  var lon1 = -154.285810;
+  var mag1 = 6.8;
+  var x1 = mercX(lon1) - cx;
+  var y1 = mercY(lat1) - cy;
+  mag1 = pow(10, mag1);
+  mag1 = sqrt(mag1) * 3;
+  var magmax1 = sqrt(pow(10, 10));
+  var d1 = map(mag1, 0, magmax1, 0, 180);
+  stroke(0, 0, 255);
+  fill(0, 0, 255, 200);
+  ellipse(x1, y1, d1, d1)
+
+  var lat2 = 34.883962;
+  var lon2 = -119.462865;
+  var mag2 = 9;
+  var x2 = mercX(lon2) - cx;
+  var y2 = mercY(lat2) - cy;
+  mag2 = pow(10, mag2);
+  mag2 = sqrt(mag2) * 3;
+  var magmax2 = sqrt(pow(10, 10));
+  var d2 = map(mag2, 0, magmax2, 0, 180);
+  stroke(0, 0, 255);
+  fill(0, 0, 255, 200);
+  ellipse(x2, y2, d2, d2)
 }

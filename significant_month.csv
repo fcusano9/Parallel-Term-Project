@@ -1,0 +1,11 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2017-04-28T20:23:17.860Z,5.5201,125.0637,26,6.8,mww,,23,1.622,1.38,us,us10008ls4,2017-04-29T01:17:25.895Z,"30km SW of Burias, Philippines",earthquake,4,1.8,0.048,41,reviewed,us,us
+2017-04-28T15:30:05.400Z,-33.2469,-71.9968,20.41,5.9,mww,,69,0.375,1.33,us,us10008llg,2017-04-29T01:40:07.154Z,"41km SW of Valparaiso, Chile",earthquake,4.3,5.7,0.066,22,reviewed,us,us
+2017-04-24T21:38:26.130Z,-33.0729,-72.0513,25,6.9,mww,,104,0.351,1.29,us,us10008kce,2017-04-29T00:32:23.847Z,"39km W of Valparaiso, Chile",earthquake,5.3,2,,,reviewed,us,us
+2017-04-23T02:36:05.920Z,-33.0393,-72.085,9.78,5.9,mwp,,61,0.376,0.97,us,us10008jvr,2017-04-25T20:00:50.040Z,"42km W of Valparaiso, Chile",earthquake,2.8,4.1,,,reviewed,us,us
+2017-04-15T08:19:41.840Z,-23.2361,-67.6526,135.11,6.2,mww,,24,1.315,1.48,us,us10008hu2,2017-04-23T03:06:41.186Z,"67km ESE of San Pedro de Atacama, Chile",earthquake,7,5,,,reviewed,us,us
+2017-04-08T07:09:22.880Z,13.7755,120.9473,12.45,5.9,mww,,50,8.071,0.79,us,us10008fsd,2017-04-19T07:47:06.060Z,"2km NNE of Mabini, Philippines",earthquake,7.6,3.7,0.068,21,reviewed,us,us
+2017-04-05T06:09:12.460Z,35.7999,60.4364,13,6.1,mww,,43,2.824,1,us,us10008ei0,2017-04-24T17:32:58.451Z,"63km NNW of Torbat-e Jam, Iran",earthquake,5.2,1.8,,,reviewed,us,us
+2017-04-04T12:58:48.880Z,13.6183,121.0218,35,5.1,mww,,95,8.748,1.09,us,us10008ea7,2017-04-08T07:36:52.248Z,"5km W of Ilijan, Philippines",earthquake,4.9,1.9,0.062,25,reviewed,us,us
+2017-04-03T17:40:18.560Z,-22.6784,25.1558,29,6.5,mww,,15,2.36,1.11,us,us10008e3k,2017-04-19T20:54:42.574Z,"132km WSW of Moijabana, Botswana",earthquake,7.5,1.8,0.048,42,reviewed,us,us
+2017-04-03T03:08:51.220Z,-26.9179,26.8068,5,5.2,mb,,33,2.178,0.67,us,us10008e0f,2017-04-19T17:51:02.192Z,"8km SSE of Stilfontein, South Africa",earthquake,3.9,1.7,0.052,123,reviewed,us,us
