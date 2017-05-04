@@ -58,9 +58,11 @@ function setup() {
     ellipse(x, y, d, d);
   }
 
+// Paste data from output into these next three line
   var lat1 = 58.851465;
   var lon1 = -154.285810;
   var mag1 = 6.8;
+// Paste output data above
   var x1 = mercX(lon1) - cx;
   var y1 = mercY(lat1) - cy;
   mag1 = pow(10, mag1);
@@ -71,16 +73,17 @@ function setup() {
   fill(0, 0, 255, 200);
   ellipse(x1, y1, d1, d1)
 
-  var lat2 = 34.883962;
-  var lon2 = -119.462865;
-  var mag2 = 9;
-  var x2 = mercX(lon2) - cx;
-  var y2 = mercY(lat2) - cy;
-  mag2 = pow(10, mag2);
-  mag2 = sqrt(mag2) * 3;
-  var magmax2 = sqrt(pow(10, 10));
-  var d2 = map(mag2, 0, magmax2, 0, 180);
-  stroke(0, 0, 255);
-  fill(0, 0, 255, 200);
-  ellipse(x2, y2, d2, d2)
+// Data to represent a magnitude 9 earthquake in California
+//   var lat2 = 34.883962;
+//   var lon2 = -119.462865;
+//   var mag2 = 9;
+//   var x2 = mercX(lon2) - cx;
+//   var y2 = mercY(lat2) - cy;
+//   mag2 = pow(10, mag2);
+//   mag2 = sqrt(mag2) * 3;
+//   var magmax2 = sqrt(pow(10, 10));
+//   var d2 = map(mag2, 0, magmax2, 0, 180);
+//   stroke(0, 0, 255);
+//   fill(0, 0, 255, 200);
+//   ellipse(x2, y2, d2, d2)
 }

@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Natural Disaster Predictions
+name: Finding Patterns in Earthquake Data
 
 # Short bio or description (displayed in the header)
-description: This program will take natural disaster data and attempt to compute when and where the next major natural disasters will occur.
+description: This program will take earthquake data and predict when and where the next major earthquake will occur.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: http://www.survivalcentral.ca/wp-content/uploads/2015/07/th.jpg
